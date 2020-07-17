@@ -319,7 +319,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define DISABLE_Y 0
 #define DISABLE_Z 0
 #define DISABLE_E 0
-#define INVERT_X_DIR 0
+#define INVERT_X_DIR 1
 #define INVERT_X2_DIR 0
 #define INVERT_Y_DIR 0
 #define INVERT_Y2_DIR 0
@@ -560,7 +560,7 @@ WARNING: Servos can draw a considerable amount of current. Make sure your system
 #define LANGUAGE_PL_ACTIVE 0
 #define LANGUAGE_TR_ACTIVE 0
 #define LANGUAGE_RU_ACTIVE 0
-#define UI_PRINTER_NAME "BB-8"
+#define UI_PRINTER_NAME "0835"
 #define UI_PRINTER_COMPANY "VGK-INC"
 #define UI_PAGES_DURATION 4000
 #define UI_SPEEDDEPENDENT_POSITIONING 0
@@ -613,7 +613,7 @@ Values must be in range 1..255
     "xStepsPerMM": 80,
     "yStepsPerMM": 80,
     "zStepsPerMM": 80,
-    "xInvert": 0,
+    "xInvert": "1",
     "x2Invert": 0,
     "xInvertEnable": 0,
     "eepromMode": 0,
@@ -832,7 +832,7 @@ Values must be in range 1..255
     "extrudeMaxLength": 160,
     "homeOrder": "HOME_ORDER_ZXY",
     "featureController": 2,
-    "uiPrinterName": "BB-8",
+    "uiPrinterName": "0835",
     "uiPrinterCompany": "VGK-INC",
     "uiPagesDuration": 4000,
     "uiHeadline": "Hello Newman",
