@@ -330,11 +330,11 @@ It also can add a delay to wait for spindle to run on full speed.
 #define X_HOME_DIR -1
 #define Y_HOME_DIR -1
 #define Z_HOME_DIR -1
-#define X_MAX_LENGTH 200
-#define Y_MAX_LENGTH 200
-#define Z_MAX_LENGTH 200
-#define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define X_MAX_LENGTH 180
+#define Y_MAX_LENGTH 180
+#define Z_MAX_LENGTH 180
+#define X_MIN_POS 10
+#define Y_MIN_POS 10
 #define Z_MIN_POS 0
 #define PARK_POSITION_X 0
 #define PARK_POSITION_Y 0
@@ -560,7 +560,7 @@ WARNING: Servos can draw a considerable amount of current. Make sure your system
 #define LANGUAGE_PL_ACTIVE 0
 #define LANGUAGE_TR_ACTIVE 0
 #define LANGUAGE_RU_ACTIVE 0
-#define UI_PRINTER_NAME "0835"
+#define UI_PRINTER_NAME "200717_0905"
 #define UI_PRINTER_COMPANY "VGK-INC"
 #define UI_PAGES_DURATION 4000
 #define UI_SPEEDDEPENDENT_POSITIONING 0
@@ -731,12 +731,12 @@ Values must be in range 1..255
     "backlashZ": 0,
     "stepperInactiveTime": 360,
     "maxInactiveTime": 0,
-    "xMinPos": 0,
-    "yMinPos": 0,
+    "xMinPos": 10,
+    "yMinPos": 10,
     "zMinPos": 0,
-    "xLength": 200,
-    "yLength": 200,
-    "zLength": 200,
+    "xLength": 180,
+    "yLength": 180,
+    "zLength": 180,
     "alwaysCheckEndstops": "1",
     "disableX": "0",
     "disableY": "0",
@@ -832,7 +832,7 @@ Values must be in range 1..255
     "extrudeMaxLength": 160,
     "homeOrder": "HOME_ORDER_ZXY",
     "featureController": 2,
-    "uiPrinterName": "0835",
+    "uiPrinterName": "200717_0905",
     "uiPrinterCompany": "VGK-INC",
     "uiPagesDuration": 4000,
     "uiHeadline": "Hello Newman",
